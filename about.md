@@ -2,12 +2,12 @@
 layout: post
 permalink: /about/index.html
 title: Sobre mim
-description: Psicóloga formada pela Universidade Estadual de Maringá (UEM).  
+description: Raissa Fachinello. CRP - 08/20509   
 tags: [sobre, raissa]
 image:
-  feature: soft-trees.jpg
+  feature: people.jpg
 ---
-
+Psicóloga formada pela Universidade Estadual de Maringá (UEM). 
 Há 4 anos atuando em psicologia clínica com abordagem psicanalítica; em projetos relacionados ao envelhecimento e à oncologia.  
 Psicóloga do Programa Centro de Referência do Envelhecimento (PROCERE/UEM).
 Psicóloga voluntária na Rede Feminina de Combate ao Cancêr (Maringá). 
