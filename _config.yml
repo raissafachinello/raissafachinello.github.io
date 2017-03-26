@@ -1,4 +1,5 @@
-title:            Balzac
+title:            Raissa Fachinello
+# TODO
 tagline:          A beautiful theme.
 description:      Describe your website.
 canonical: http://jekyll.gtat.me
@@ -31,10 +32,7 @@ links:
   - title: About
     url: /about
   - title: Github
-    url: https://github.com/ColeTownsend/Balzac-for-Jekyll
-    external: true
-  - title: Cole Who?
-    url: http://coletownsend.com
+    url: https://github.com/raissafachinello/raissafachinello.github.io
     external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
