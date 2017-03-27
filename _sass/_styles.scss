@@ -279,7 +279,8 @@ header.site-header nav {
 .article {
     position: relative;
     margin-bottom: $lh;
-    
+    text-align:justify;
+
     .overlay {
         vertical-align: middle;
         min-height: 360px;
@@ -334,7 +335,7 @@ header.site-header nav {
         }
         
         .intro {
-            text-align: left;
+            text-align: justify;
         }
     }
 }

@@ -6,13 +6,10 @@ canonical: http://jekyll.gtat.me
 
 # Owner/author information
 owner:
-  name:           Cole Townsend
+  name:           Raissa Fachinello
   avatar:         avatar.png
-  bio:            "Aesthete & Athlete"
-  email:          cole@coletownsend.com
-  twitter:        twnsndco
-  github:         coletownsend
-  instagram:      ctrunsthis
+  email:          raissabuenof@gmail.com
+  github:         raissafachinello
   dribbble:       coletownsend
   disqus:         balzac
   location:       "Buffalo, NY"
@@ -38,7 +35,7 @@ links:
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/New_York
 future:      true
-highlighter: pygments
+highlighter: rouge
 markdown:    kramdown
 
 kramdown:
