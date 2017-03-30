@@ -22,9 +22,9 @@ opengraph:
 links:
   - title: Sobre mim
     url: /about
-  - title: Github
-    url: https://github.com/raissafachinello/raissafachinello.github.io
-    external: true
+#  - title: Github
+#    url: https://github.com/raissafachinello/raissafachinello.github.io
+#    external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/Sao_Paulo
