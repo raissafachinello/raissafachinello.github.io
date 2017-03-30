@@ -1,8 +1,4 @@
 title:            Raissa Fachinello
-# TODO
-tagline:          A beautiful theme.
-description:      Describe your website.
-canonical: http://jekyll.gtat.me
 
 # Owner/author information
 owner:
@@ -10,10 +6,8 @@ owner:
   avatar:         avatar.png
   email:          raissabuenof@gmail.com
   github:         raissafachinello
-  dribbble:       coletownsend
-  disqus:         balzac
-  location:       "Buffalo, NY"
-  # Plug in your disqus shortname!
+  disqus:         raissa-fachinello
+  location:       "Maringa, PR"
 
 tools:
   standards:      "HTML, SCSS, Jekyll"
@@ -33,7 +27,7 @@ links:
     external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
+timezone:    America/Sao_Paulo
 future:      true
 highlighter: rouge
 markdown:    kramdown
