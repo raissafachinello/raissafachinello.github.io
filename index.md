@@ -1,5 +1,5 @@
 ---
 layout: home
 title: "Vamos falar sobre..."
-tags: [Jekyll, theme, responsive, blog, template]
+tags: [Psicologia, Raissa, Fachinello, Envelhecimento, Oncologia]
 ---

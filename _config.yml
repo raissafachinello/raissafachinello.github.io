@@ -22,8 +22,8 @@ opengraph:
 links:
   - title: Sobre mim
     url: /about
-#  - title: Github
-#    url: https://github.com/raissafachinello/raissafachinello.github.io
+#  - title: Contato
+#    url: /contact
 #    external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones

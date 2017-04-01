@@ -11,9 +11,9 @@ Raíssa Fachinello. CRP - 08/20509
 </p>
 
 * Psicóloga graduada pela Universidade Estadual de Maringá (UEM).<br>
-* Há 4 anos atuando em psicologia clínica com abordagem psicanalítica; em projetos relacionados ao envelhecimento e à oncologia.<br>
+* Atuo em psicologia clínica com orientação psicanalítica; em projetos relacionados ao envelhecimento e à oncologia.<br>
 * Psicóloga do Programa Centro de Referência do Envelhecimento (PROCERE/UEM).<br>
-* Psicóloga voluntária na Rede Feminina de Combate ao Cancêr (Maringá).<br>
+* Psicóloga voluntária na Rede Feminina de Combate ao Câncer (Maringá).<br>
  
 
 ### Contato 
