@@ -22,8 +22,8 @@ opengraph:
 links:
   - title: Sobre mim
     url: /about
-#  - title: Contato
-#    url: /contact
+  - title: Contato
+    url: /contato
 #    external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
