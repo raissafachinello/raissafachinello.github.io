@@ -19,3 +19,4 @@ Raíssa Fachinello. CRP - 08/20509
 ### Contato 
 * E-mail: raissabuenof@gmail.com
 * Celular: (44) 99805-3627
+* Facebook: [@psicologaraissaf](https://www.facebook.com/psicologaraissaf/)
