@@ -15,7 +15,7 @@ tools:
 
 # Open Graph customization
 opengraph:
-  locale:           en_US
+  locale:           pt_BR
 
 # Links to include in top navigation
 # For external links add external: true
