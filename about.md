@@ -3,6 +3,7 @@ layout: post
 permalink: /about/index.html
 title: Sobre mim 
 tags: [sobre, raissa]
+hideShare: true
 image:
   feature: people.jpg
 ---
