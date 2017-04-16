@@ -5,7 +5,14 @@
 <meta name="description" content="{{ page.description }}">
 <meta name="keywords" content="{{ page.tags | join: ', ' }}">
 <meta name="referrer" content="origin">
-  
+
+<meta property="fb:app_id" content="{{ site.facebook_app_id }}" />
+<meta property="og:url" content="{{ site.url }}/{{ page.url }}" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="{{ page.title }}" />
+<meta property="og:description" content="{{ page.content | markdownify | strip_html | strip_newlines | truncate: 300 }}" />
+<!--<meta property="og:image" content="{{ site.url }}/{{ page.image }}" />-->
+
 {% include graphs.html %}
 
 <link href="{{ site.url }}/feed.xml" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
