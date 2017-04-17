@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Como é ser mulher hoje em dia
-description: "Este é o primeiro texto neste espaço que inauguro agora, a fim de trocarmos reflexões e vivências.  Com ele, venho me apresentar e te contar um pouquinho do que espero fazer por aqui."
+description: "Muito se tem discutido ultimamente a respeito do papel da mulher na sociedade e como ele tem se transformado ao longo dos anos."
 category: articles
 tags: [mulher, hoje, brasil, abuso]
 comments: true
