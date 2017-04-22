@@ -3,21 +3,35 @@
     <aside class="wrap">
       <ol class="prev-posts">
         <p class="list-title">Postagens recentes</p>
-        {% for post in site.posts | limit:3 %} <!-- for1 -->
+        {% for post in site.posts | limit:3 %}
             <li>
               <span class="recent-title"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title | strip_html | strip_newlines | truncate: 30 }} </a></span>
-              <span class="date">{{post.date | date: "%b %d, %Y" }}</span>
+              <span class="date">
+                    {% assign m = post.date | date: "%-m" %}
+                    {{ post.date | date: "%-d DE" }}
+                    {% case m %}
+                    {% when '1' %}Janeiro
+                    {% when '2' %}Fevereiro
+                    {% when '3' %}Março
+                    {% when '4' %}Abril
+                    {% when '5' %}Maio
+                    {% when '6' %}Junho
+                    {% when '7' %}Julho
+                    {% when '8' %}Agosto
+                    {% when '9' %}Setembro
+                    {% when '10' %}Outubro
+                    {% when '11' %}Novembro
+                    {% when '12' %}Dezembro
+                    {% endcase %}
+                    {{ post.date | date: "DE %Y" }}</span>
             </li>
         {% endfor %}
       </ol>
 
       <div class="social">
         <ul>
-            <li><a id="mail" href="mailto:{{ site.owner.email }}"><span class="foot-link">Contate-me</span></a></li>
-
-            <!--{% if site.owner.dribbble %}-->
-            <!--<li><a id="drib" href="http://dribbble.com/{{ site.owner.dribbble }}" target="_blank"><span class="foot-link">Dribbble</span></a></li>-->
-            <!--{% endif %}-->
+            <li><a href="/contato/"><span class="foot-link">Contate-me</span></a></li>
+            <li><a href="/about/"><span class="foot-link">Sobre mim</span></a></li>
         </ul>
     </div>
     </aside>
@@ -30,7 +44,6 @@
 
   <!-- Custom JS -->
   <script src="{{ site.url }}/assets/js/scripts.js"></script>
-
 
   </body>
 </html>
