@@ -17,5 +17,6 @@
 $total-width: 100%;
 
 .attachment-fixed {
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
+    background-position: initial!important;
 }
