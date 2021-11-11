@@ -1,35 +1,14 @@
-{% if page.image.feature %}
+---
+layout: default
+---
+{% include nav.html %}
 
-{% include head.html %}
-
-<section class="article">
-
-  <div class="overlay"></div>
-  <div class="featured-image" style="background-image: url({{ site.url }}/images/{{ page.image.feature }})"></div>
-{% else %}
-
-{% include head-dark.html %}
-
-<section class="article pad-top">
-
+{% if page.background == "grey" or page.background == "gray" %}
+<script>
+    document.getElementById("page-top").className="bg-light";
+</script>
 {% endif %}
 
-      <article class="wrap post">
-        <header class="post-header">
-          <hgroup>
-            <h1>{{ page.title }}</h1>
-            <p class="intro">{% if page.description %}{{ page.description }}{% else %}{{ page.tagline }}{% endif %}</p>
-
-          </hgroup>
-        </header>
-
-        {{ content }}
-
-      {% if page.hideShare != true%}
-          {% include share.html %}
-      {% endif %}
-      </article>
-    </section>
+<div class="container" id="pagecontainer">
+    {{ content }}
 </div>
-
-{% include footer.html %}

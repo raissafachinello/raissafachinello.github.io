@@ -1,0 +1,12 @@
+#about {
+    background-color: $gray-100;
+}
+
+.container-center {
+    margin: 0;
+    position: relative;
+    top: 50%;
+    margin: auto;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}

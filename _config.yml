@@ -1,57 +1,36 @@
-title:            Raissa Fachinello
-facebook_app_id: 421577788204245
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that.
+# This file is *NOT* reloaded automatically when you use 'bundle exec jekyll serve'.
+# If you change this file, please restart the server process.
 
-# Owner/author information
-owner:
-  name:           Raissa Fachinello
-  avatar:         avatar.png
-  email:          raissabuenof@gmail.com
-  github:         raissafachinello
-  disqus:         raissa-fachinello
-  location:       "Maringa, PR"
+# Site settings
+# are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
 
-tools:
-  standards:      "HTML, SCSS, Jekyll"
-  software:       "git"
+theme: jekyll-agency
 
-# Open Graph customization
-opengraph:
-  locale:           pt_BR
+url    : "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
 
-# Links to include in top navigation
-# For external links add external: true
-links:
-  - title: Sobre mim
-    url: /about
-  - title: Contato
-    url: /contato
-#    external: true
+title      : Bella Psique
+email      : raissabuenof@gmail.com #this is also the email contact forms will go to
+description: "Site description"
+author     : Raissa Bueno Fachinello
+# logo:     #optional, defaults to site title
+  # path: assets\img\clients\creative-market.jpg
+  # height: 60 #height in px, defaults to 52px
 
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/Sao_Paulo
-future:      true
-highlighter: rouge
-markdown:    kramdown
+locale: "en-US" # See available languages in _data/sitetext.yml
 
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  enable_coderay: false
+collections:
+  portfolio:
 
-  syntax_highlighter_opts:
-    line_numbers:
-    line_numbers_start: 1
-    tab_width: 4
-    bold_every: 10
-    css: class
+markdown: kramdown
 
-sass:
-    style: :compressed
-
-# https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title
-
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp"]
+# Uncomment following line to use Formspree form ID based URL instead of email based URL
+# Details: https://help.formspree.io/hc/en-us/articles/360017735154-How-to-prevent-spam
+# formspree_form_path: "f/a_form_id"

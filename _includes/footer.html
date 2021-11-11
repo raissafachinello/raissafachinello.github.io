@@ -1,49 +1,52 @@
-<div class="push"></div>
-  <footer>
-    <aside class="wrap">
-      <ol class="prev-posts">
-        <p class="list-title">Postagens recentes</p>
-        {% for post in site.posts | limit:3 %}
-            <li>
-              <span class="recent-title"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title | strip_html | strip_newlines | truncate: 30 }} </a></span>
-              <span class="date">
-                    {% assign m = post.date | date: "%-m" %}
-                    {{ post.date | date: "%-d DE" }}
-                    {% case m %}
-                    {% when '1' %}Janeiro
-                    {% when '2' %}Fevereiro
-                    {% when '3' %}Março
-                    {% when '4' %}Abril
-                    {% when '5' %}Maio
-                    {% when '6' %}Junho
-                    {% when '7' %}Julho
-                    {% when '8' %}Agosto
-                    {% when '9' %}Setembro
-                    {% when '10' %}Outubro
-                    {% when '11' %}Novembro
-                    {% when '12' %}Dezembro
-                    {% endcase %}
-                    {{ post.date | date: "DE %Y" }}</span>
-            </li>
-        {% endfor %}
-      </ol>
-
-      <div class="social">
-        <ul>
-            <li><a href="/contato"><span class="foot-link">Contate-me</span></a></li>
-            <li><a href="/about/"><span class="foot-link">Sobre mim</span></a></li>
+<!-- Footer -->
+<footer class="footer" id="footer" style="background-color: white">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-4">
+        <span class="copyright"
+          >Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</span
+        >
+      </div>
+      <!-- Social Media -->
+      <div class="col-md-4">
+        <ul class="list-inline social-buttons">
+          {% for link in site.data.sitetext[site.locale].footer.social %}
+          <li class="list-inline-item">
+            {% if link.url %}
+            <a href="{{ link.url }}">
+              {% if link.icon %}<i class="{{ link.icon }}"></i>{% endif %}
+            </a>
+            {% endif %}
+          </li>
+          {% endfor %}
         </ul>
+      </div>
+      <!-- Legal -->
+      <div class="col-md-4">
+        <ul class="list-inline quicklinks">
+          <li class="list-inline-item">
+            <a href="legal"
+              >{{ site.data.sitetext[site.locale].footer.legal | default:
+              "Privacy Policy" }}</a
+            >
+          </li>
+        </ul>
+      </div>
     </div>
-    </aside>
-    <small>&copy; {{ site.time | date: '%Y' }} {{ site.owner.name }}. Powered by <a href="http://jekyllrb.com">Jekyll</a> using the <a href="http://jekyll.gtat.me/about">Balzac</a> theme.</small>
-  </footer>
-
-  <!-- If they're out, get some from the cellar -->
-  <script>window.jQuery || document.write('<script src="{{ site.url }}/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
-  <script src="{{ site.url }}/assets/js/retina.min.js"></script>
-
-  <!-- Custom JS -->
-  <script src="{{ site.url }}/assets/js/scripts.js"></script>
-
-  </body>
-</html>
+  </div>
+</footer>
+{% if page.layout == "page" %}
+<script>
+  fixPageShort();
+  function fixPageShort() {
+    if (window.innerHeight > document.body.offsetHeight) {
+      document.getElementById("footer").style.position = "fixed";
+      document.getElementById("footer").style.bottom = 0;
+      document.getElementById("footer").style.right = 0;
+      document.getElementById("footer").style.left = 0;
+      document.getElementById("footer").style.width = "100%";
+    }
+  }
+</script>
+{% endif %}
+<!-- End Footer -->
