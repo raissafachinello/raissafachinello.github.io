@@ -12,54 +12,55 @@
 en: &DEFAULT_EN
   header:
     title:
-    text: É um prazer te conhecer 
+    text: Raíssa Bueno Fachinello
+    sub_text: Psicóloga Cliníca - CRP 08/20509
     button: Saiba mais
     whatsapp-url: https://api.whatsapp.com/send?phone=5544998053627&text=Ol%C3%A1%20Raissa,%20gostaria%20de%20agendar%20um%20atendimento
     buttonlink: "#about"
 
   services:
     title: "Serviços"
-    text: "Lorem ipsum"
+    text: ""
     section: services
     list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      - title: "Atendimento presencial"
+        desc: "Atendimento sob agendamento prévio, no consultório, com conforto e privacidade, seguindo os protocolos de segurança para prevenção da COVID-19."
+        icon: fas fa-user
+      - title: "Atendimento on-line"
+        desc: "Atendimento sob agendamento prévio, via Internet, caso você não possa se deslocar ao consultório por algum motivo."
         icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
+      - title: "Palestras"
+        desc: "Apresentações e workshops para pequenos grupos sobre temas específicos, relacionados à saúde mental, relacionamentos e qualidade de vida. "
+        icon: fas fa-bullhorn
 
-  portfolio:
-    title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    section: portfolio
-    closebutton: "Close Project"
+  how_it_works:
+    title: "Como funciona a psicoterapia:"
+    text: ""
+    body: "A minha forma de ver e entender o ser humano é baseada na Teoria Psicanalítica e eu a utilizo como teoria e técnica nos meus atendimentos.<br><br>A psicoterapia psicanalítica busca investigar as origens dos sofrimentos psíquicos através de uma interpretação do Inconsciente. Para isso, utilizamos a palavra como ferramenta de trabalho.<br><br>Em uma sessão de psicoterapia psicanalítica o paciente diz o que está sentindo e o terapeuta o ajuda a interpretar e a investigar as origens e possíveis vias de transformação do sofrimento. Isso não se significa que vamos \"apenas conversar\" durante as sessões. A escuta do psicoterapeuta é treinada e baseada em métodos consolidados cientificamente, para que haja possibilidade de intervenção responsável.<br><br>É importante deixar claro que o trabalho do psicoterapeuta é orientado pelo Código de Ética Profissional do Psicólogo, que deve garantir o sigilo de tudo o que é dito e produzido durante as sessões, além de orientar a conduta ética do profissional em relação ao seu paciente.<br><br>Para que o tratamento seja satisfatório, iremos nos encontrar ao menos 1 vez por semana, em sessões de aproximadamente 50 minutos."
+    section: how_it_works
 
   about:
-    title: "Sobre nós"
-    text: "nossa história"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+    title: "Sobre mim:"
+    text: ""
+    body: "Meu nome é <b>Raíssa Bueno Fachinello</b>, sou Psicóloga cliníca, especialista em Neuropsicologia e Pós Graduanda em Psicoterapia Psicanalítica Contemporânea. Trabalho com atendimento clínico, com a abordagem psicanalítica, desde 2014, atendendo adultos e idosos com as mais diferentes demandas que surgem nos consultórios: ansiedade, depressão, dificuldades nos relacionamentos, dúvidas e dificuldades em relação ao trabalho e à profissão, dúvidas e \"crises\" relacionadas ao envelhecimento, etc. "
     section: about
 
   team:
-    title: "Nosso time"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    title: "Minhas redes:"
+    text: ""
+    subtext: "Me acompanhe nas redes sociais para saber mais sobre meu trabalho."
     section: team
     people:
       - name: "Raíssa Fachinello"
-        role: "Psicóloga"
+        role: "Psicóloga Cliníca"
         image: assets/img/team/raissa.jpg
         social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
+          # - url: https://twitter.com
+          #   icon: fab fa-twitter
+          - url: https://www.facebook.com/psicologaraissabueno
             icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
+          # - url: https://linkedin.com
+          #   icon: fab fa-linkedin-in
 
   contact:
     title: "Entre em contato"
@@ -71,7 +72,7 @@ en: &DEFAULT_EN
     email-validation: "Por favor preencha seu email."
     phone: "Telefone*"
     phone-validation: "Por favor preencha o telefone."
-    message: "Message*"
+    message: "Mensagem*"
     message-validation: "Por favor preencha a mensagem"
     subject: "Contact Form Submission"
     submit: "Enviar Mensagem"

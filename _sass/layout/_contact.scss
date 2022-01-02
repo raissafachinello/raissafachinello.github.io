@@ -7,19 +7,6 @@ section#contact {
   .section-heading {
     color: $default-color;
   }
-  .form-group {
-    margin-bottom: 25px;
-    input,
-    textarea {
-      padding: 20px;
-    }
-    input.form-control {
-      height: auto;
-    }
-    textarea.form-control {
-      height: 248px;
-    }
-  }
   .form-control:focus {
     border-color: $primary;
     box-shadow: none;
@@ -45,3 +32,36 @@ section#contact {
     @include heading-font;
   }
 }
+
+@media (min-width: 300px) {
+  .form-group {
+    margin-bottom: 25px;
+    font-size: 2em;
+    input,
+    textarea {
+      padding: 5px;
+    }
+    input.form-control {
+      height: auto;
+    }
+    textarea.form-control {
+      height: 8em;
+    }
+  }
+}
+@media (min-width: 768px) {
+  .form-group {
+    margin-bottom: 25px;
+    input,
+    textarea {
+      padding: 20px;
+    }
+    input.form-control {
+      height: auto;
+    }
+    textarea.form-control {
+      height: 248px;
+    }
+  }
+}
+

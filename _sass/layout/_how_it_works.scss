@@ -1,0 +1,25 @@
+#how_it_works {
+    background-color: $gray-100;
+}
+
+@media (min-width: 300px) {
+    .container-center {
+        margin: 0;
+        font-size: 10px;
+        position: relative;
+        top: 10%;
+        margin: auto;
+        -ms-transform: translateY(-5%);
+        transform: translateY(-5%);
+    }
+  }
+@media (min-width: 768px) {
+    .container-center {
+        margin: 0;
+        position: relative;
+        top: 50%;
+        margin: auto;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+}

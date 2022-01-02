@@ -29,24 +29,45 @@ h6 {
   @include heading-font;
 }
 
-.page-section {
-  height: 95vh;
-  padding: 100px 0;
-  h2.section-heading {
-    font-size: 40px;
-    margin-top: 0;
-    margin-bottom: 15px;
-  }
-  h3.section-subheading {
-    font-size: 16px;
-    font-weight: 400;
-    font-style: italic;
-    margin-bottom: 75px;
-    text-transform: none;
-    @include serif-font;
+@media (min-width: 300px) {
+  .page-section {
+    height: 100vh;
+    overflow: hidden;
+    h2.section-heading {
+      font-size: 20px;
+      margin-top: 0;
+      margin-bottom: 15px;
+      color: #47aaab;
+    }
+    h3.section-subheading {
+      font-size: 16px;
+      font-weight: 400;
+      font-style: italic;
+      margin-bottom: 75px;
+      text-transform: none;
+      @include serif-font;
+    }
   }
 }
 @media (min-width: 768px) {
+  .page-section {
+    height: 95vh;
+    padding: 100px 0;
+    h2.section-heading {
+      font-size: 40px;
+      margin-top: 0;
+      margin-bottom: 15px;
+    }
+    h3.section-subheading {
+      font-size: 16px;
+      font-weight: 400;
+      font-style: italic;
+      margin-bottom: 75px;
+      text-transform: none;
+      @include serif-font;
+    }
+  }
+
   section {
     padding: 150px 0;
   }

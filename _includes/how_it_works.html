@@ -1,0 +1,17 @@
+<!-- How it works -->
+<section class="page-section" id="{{ site.data.sitetext[site.locale].how_it_works.section | default: "" }}">
+  <div class="container container-center">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].how_it_works.title | default: "" }}</h2>
+        <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].how_it_works.text | default: "" }}</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-8 mx-auto text-center">
+        <div class="large text-muted">{{ site.data.sitetext[site.locale].how_it_works.body | markdownify }}</div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End How it works -->

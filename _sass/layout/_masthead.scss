@@ -8,28 +8,33 @@ header.masthead {
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
-  .intro-text {
-    .intro-lead-in {
-      font-size: 22px;
-      font-style: italic;
-      line-height: 22px;
-      margin-bottom: 25px;
-      @include serif-font;
-    }
-    .intro-heading {
-      background-color: white;
-      font-size: 50px;
-      font-weight: 700;
-      line-height: 50px;
-      margin-bottom: 25px;
-      @include heading-font;
+}
+@media (min-width: 300px) {
+  header.masthead {
+    .intro-text {
+      padding-top: 50px;
+      padding-bottom: 100px;
+      .intro-lead-in {
+        font-size: 22px;
+        font-style: italic;
+        line-height: 22px;
+        margin-bottom: 25px;
+        @include serif-font;
+      }
+      .intro-heading {
+        background-color: white;
+        font-size: 50px;
+        line-height: 50px;
+        margin-bottom: 25px;
+        @include heading-font;
+      }
     }
   }
 }
 @media (min-width: 768px) {
   header.masthead {
     .intro-text {
-      padding-top: 300px;
+      padding-top: 100px;
       padding-bottom: 200px;
       .intro-lead-in {
         font-size: 40px;
@@ -39,15 +44,28 @@ header.masthead {
         @include serif-font;
       }
       .intro-heading {
-        font-size: 75px;
-        font-weight: 700;
-        line-height: 75px;
+        background-color: white;
+        font-size: 50px;
+        line-height: 50px;
         margin-bottom: 50px;
         @include heading-font;
       }
     }
   }
 }
+
+@media (min-width: 768px) {
+  header.masthead {
+    .intro-subhead {
+      // background-color: white;
+      font-size: 15px;
+      line-height: 20px;
+      margin-bottom: 20px;
+      @include heading-font;
+    }
+  }
+}
+
 
 .btn-wp {
   background-color: btn-primary;

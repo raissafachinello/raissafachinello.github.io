@@ -11,11 +11,13 @@
 # -----------------
 en: &DEFAULT_EN
   nav:
-    - title: "Sobre nós"
+    - title: "Sobre mim"
       section: about
     - title: "Serviços"
       section: services
-    - title: "Nosso Time"
+    - title: "Como funciona"
+      section: how_it_works  
+    - title: "Minhas redes"
       section: team
     - title: "Contato"
       section: contact
