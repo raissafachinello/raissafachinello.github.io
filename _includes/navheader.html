@@ -53,17 +53,14 @@
     </div>
 
     <script type="text/javascript"> 
-      var totalCount = 3;
+      var totalCount = 2;
       function ChangeIt() {
         var num = Math.ceil( Math.random() * totalCount );
         var element = document.getElementsByClassName("masthead")[0];
 
         element.style.backgroundImage = 'url("assets/img/team/RAISSA_'+num+'.jpg")';
-        if (num < 3) {
-          element.style.backgroundPosition = "center center"
-        } else {
-          element.style.backgroundPosition = "right 50px"
-        }
+        element.style.backgroundPosition = "center center"
+
       }
     </script>
   </header>
