@@ -42,7 +42,7 @@ en: &DEFAULT_EN
   about:
     title: "Sobre mim:"
     text: ""
-    body: "Meu nome é <b>Raíssa Bueno Fachinello</b>, sou Psicóloga clínica, especialista em Neuropsicologia e pós graduanda em Psicoterapia Psicanalítica Contemporânea. Trabalho com atendimento clínico, com a abordagem psicanalítica, desde 2014, atendendo adultos e idosos com as mais diferentes demandas que surgem nos consultórios: ansiedade, depressão, dificuldades nos relacionamentos, dúvidas e dificuldades em relação ao trabalho e à profissão, dúvidas e \"crises\" relacionadas ao envelhecimento, etc. "
+    body: "Meu nome é <b>Raíssa Bueno Fachinello</b>, sou psicóloga clínica, especialista em Neuropsicologia e pós graduanda em Psicoterapia Psicanalítica Contemporânea. Trabalho com atendimento clínico, com a abordagem psicanalítica, desde 2014, atendendo adultos e idosos com as mais diferentes demandas que surgem nos consultórios: ansiedade, depressão, dificuldades nos relacionamentos, dúvidas e dificuldades em relação ao trabalho e à profissão, dúvidas e \"crises\" relacionadas ao envelhecimento, etc. "
     section: about
 
   team:
