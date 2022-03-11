@@ -24,3 +24,19 @@
     box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
   }
 }
+
+.pulse {
+  animation-name: pulse;
+	animation-duration: 1.5s;
+	animation-timing-function: ease-out;
+	animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+	0% {
+		box-shadow: 0 0 0 0 #47aaab;
+	}
+	80% {
+		box-shadow: 0 0 0 20px rgba(37, 211, 102, 0);
+	}
+}

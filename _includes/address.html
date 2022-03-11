@@ -1,0 +1,26 @@
+<!-- Address -->
+<section class="page-section" id="{{ site.data.sitetext[site.locale].address.section | default: "address" }}">
+  <div class="container container-center" style="height: 90%;">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">Endereço</h2>
+      </div>
+    </div>
+    
+      <div class="mapouter">
+        <div class="gmap_canvas">
+        <iframe
+          id="gmap_canvas" 
+          style="height:90%;width:100%"
+          src="https://maps.google.com/maps?q=Ra%C3%ADssa%20Bueno%20Fachinello%20-%20Psicologia%20Cl%C3%ADnica%20para%20Adultos&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+        </iframe>
+        <br>
+        <style>.mapouter{position:relative;text-align:right;height:100%;width:100%;padding:2em;}</style>
+        <style>.gmap_canvas {overflow:hidden;background:none!important;height:100%;width:100%;}</style>
+        </div>
+      </div>
+  </div>
+</section>
+<!-- End Address -->
+
+

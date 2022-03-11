@@ -21,6 +21,8 @@ en: &DEFAULT_EN
       section: team
     - title: "Contato"
       section: contact
+    - title: "Endereço"
+      section: address
 en-US:
   <<: *DEFAULT_EN
 en-CA:
